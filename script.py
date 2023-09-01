@@ -1,7 +1,7 @@
 import requests as r
 import pandas as pd
 
-access_token = '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'
+access_token = 'insert you api token here'
 headers = {'x-GitHub-Api-Version': '2022-11-28', 'Authorization':'Bearer ' + access_token}
 api_base_url = 'https://api.github.com'
 owner = 'oracle'
